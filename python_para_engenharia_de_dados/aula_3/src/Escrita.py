@@ -2,14 +2,15 @@ import random
 from faker import Faker
 from Aluno import Aluno
 
-faker = Faker(locale='pt-BR')
-#nome_arquivo = 'aula_python.txt'
-#arquivo = open(nome_arquivo, 'w')
-#arquivo.write('Sejam bem-vindos ao curso de Pyhton' + '\n')
-#arquivo.write('Turma 9 2025-2')
-#arquivo.close()
 
-nome_arquivo = 'alunos.txt'
+nome_arquivo = '../data/aula_python.txt'
+arquivo = open(nome_arquivo, 'w')
+arquivo.write('Sejam bem-vindos ao curso de Pyhton' + '\n')
+arquivo.write('Turma 9 2025-2')
+arquivo.close()
+
+faker = Faker(locale='pt-BR')
+nome_arquivo = '../data/alunos.txt'
 arquivo = open(nome_arquivo, 'w')
 lista_alunos = []
 for x in range(20):

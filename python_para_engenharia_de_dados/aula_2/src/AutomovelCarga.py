@@ -1,4 +1,4 @@
-from automovel import Automovel
+from Automovel import Automovel
 
 
 class AutomovelCarga(Automovel):

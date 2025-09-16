@@ -1,5 +1,5 @@
-from automovel import Automovel
-from automovelcarga import AutomovelCarga
+from Automovel import Automovel
+from AutomovelCarga import AutomovelCarga
 
 
 c = AutomovelCarga()
